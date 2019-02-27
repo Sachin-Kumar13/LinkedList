@@ -39,6 +39,7 @@
                   linked lists  with odd elements */
                     prev_of_slow_ptr = slow_ptr;
                     slow_ptr = slow_ptr.next;
+
                 }
 
             /* fast_ptr would become NULL when there are even elements
