@@ -23,6 +23,7 @@
         {
             slow_ptr = head; fast_ptr = head;
             Node prev_of_slow_ptr = head;
+
             Node midnode = null;  // To handle odd size list
             boolean res = true; // initialize result
 
